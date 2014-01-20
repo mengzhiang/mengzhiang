@@ -6,7 +6,7 @@
 * 工作经验：	四年
 * 毕业院校：	河南大学 计算机科学与技术
 * 电子信箱：	mengzhiang@gmail.com	
-* 个人网站：       www.mengzhiang.com
+* github：        https://github.com/mengzhiang
 * 新浪微博：	http://weibo.com/mengzhiang
 
 ## 求职意向
