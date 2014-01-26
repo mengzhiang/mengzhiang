@@ -1,56 +1,40 @@
-# 个人简历
-* 姓    名：  孟志昂	
-* 性    别：	男
-* 出生年月：	1986-09-06	
-* 联系电话：	15801057926
-* 工作经验：	四年
-* 毕业院校：	河南大学 计算机科学与技术
-* 电子信箱：	mengzhiang@gmail.com	
-* github：        https://github.com/mengzhiang
-* 新浪微博：	http://weibo.com/mengzhiang
+# Jekyll-Bootstrap
 
-## 求职意向
-前端开发工程师 
-## 专业技能
-1. 熟悉JavaScript语言，掌握CSS、HTML、DOM、Ajax等前端技术。
-1. 熟悉jQuery，Dojo，Extjs等框架。熟悉Handlebars模板，Backbone前端MVC框架。
-1. 独立开发公司前端开发框架，对前端模块化开发，对结构，样式，行为分离有很好的认识。
-1. 熟读Arale源代码，对前端框架开发有比较深入的认识。 
-1. 熟悉HTML5和CSS3，并有实际开发经验。有java后端开发经验
-1. 喜欢学习新技术，喜欢阅读技术书籍，有很强的学习能力。
+The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
 
-## 工作经历
-### 用友软件股份有限公司——NC电子商务事业部 （2011/10—至今）
-* 职位：前端开发工程师
-* 工作简介：负责门户前端组件化框架的架构和开发工作
-* 工作内容： 
+## Usage
 
-1：组件框架分层：主要分为三层
+For all usage and documentation please see: <http://jekyllbootstrap.com>
 
-* 第一层：Class，所有类的基类，模拟类的继承。
-* 第二层：Base，继承class，增加对属性，事件和切面功能。
-* 第三层：Widget，组件核心widget继承base，定义了组件生命周期的管理。包含initAttr属性初始化配置，加载数据，使用模板生成html，绑定事件。另外对外提供接口，方便扩展。
+## Version
 
-2：组件开发过程
+0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
 
-1. 按照组件规范目录建立组件结构
-1. 编写组件HTML模板.tpl文件
-1. 编写组件css。
-1. 编写组件js，引入组件的css和tpl文件，交给widget组装。
-1. 编写测试文件和帮助文档。
+**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
+However, the actual API has not changed at all.
+You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
 
-3：主要特点：
+## Contributing
 
-* 使用Seajs来负责JavaScript和CSS以及TPL模板文件的动态加载。保证结构、样式、表现分离，提高代码可维护性。
-* 使用JavaScript继承来实现组件之间的复用，提高组件的可复用性。
-* 使用HTML5的自定义属性data-widget来简化组件的配置，使组件使用更加方便。
-* 通过动态加载css和资源文件来实现组件主题和多语的支持。
 
-### 东软集团股份有限公司——软件开发事业部 （2009/03—2011/10）
-* 职位：web开发工程师
-* 工作内容：基于Dojo框架做前台RIA界面开发，对面向对象javascript开发有比较深入的了解。
+To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
+This is very important as it allows me to accept your pull request without having to publish a public version release.
 
-***
+Small, atomic Features, bugs, etc.
+Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
+Please rebase as often as possible when working.
+Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
 
-### 自我评价
-本人性格开朗，待人友好，为人诚实谦虚，工作勤奋，认真负责，能吃苦耐劳，尽职尽责。 
+For Big Features or major API extensions/edits:
+This is the one case where I'll accept pull-requests based off the master branch.
+This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
+Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+
+**Jekyll-Bootstrap Documentation Website.**
+
+The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
