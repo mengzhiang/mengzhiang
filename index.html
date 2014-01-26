@@ -32,79 +32,48 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86" class="anchor" href="#%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86"><span class="octicon octicon-link"></span></a>个人简历</h1>
+<a name="jekyll-bootstrap" class="anchor" href="#jekyll-bootstrap"><span class="octicon octicon-link"></span></a>Jekyll-Bootstrap</h1>
 
-<ul>
-<li>姓    名： 孟志昂<br>
-</li>
-<li>性    别： 男</li>
-<li>出生年月：   1986-09-06<br>
-</li>
-<li>联系电话：   15801057926</li>
-<li>工作经验：   四年</li>
-<li>毕业院校：   河南大学 计算机科学与技术</li>
-<li>电子信箱：   <a href="mailto:mengzhiang@gmail.com">mengzhiang@gmail.com</a><br>
-</li>
-<li>个人网站：       <a href="http://www.mengzhiang.com">www.mengzhiang.com</a>
-</li>
-<li>新浪微博：   <a href="http://weibo.com/mengzhiang">http://weibo.com/mengzhiang</a>
-</li>
-</ul><h2>
-<a name="%E6%B1%82%E8%81%8C%E6%84%8F%E5%90%91" class="anchor" href="#%E6%B1%82%E8%81%8C%E6%84%8F%E5%90%91"><span class="octicon octicon-link"></span></a>求职意向</h2>
-
-<p>前端开发工程师 </p>
+<p>The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages</p>
 
 <h2>
-<a name="%E4%B8%93%E4%B8%9A%E6%8A%80%E8%83%BD" class="anchor" href="#%E4%B8%93%E4%B8%9A%E6%8A%80%E8%83%BD"><span class="octicon octicon-link"></span></a>专业技能</h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
 
-<ol>
-<li>熟悉JavaScript语言，掌握CSS、HTML、DOM、Ajax等前端技术。</li>
-<li>熟悉jQuery，Dojo，Extjs等框架。熟悉Handlebars模板，Backbone前端MVC框架。</li>
-<li>独立开发公司前端开发框架，对前端模块化开发，对结构，样式，行为分离有很好的认识。</li>
-<li>熟读Arale源代码，对前端框架开发有比较深入的认识。 </li>
-<li>熟悉HTML5和CSS3，并有实际开发经验。有java后端开发经验</li>
-<li>喜欢学习新技术，喜欢阅读技术书籍，有很强的学习能力。</li>
-</ol><h2>
-<a name="%E5%B7%A5%E4%BD%9C%E7%BB%8F%E5%8E%86" class="anchor" href="#%E5%B7%A5%E4%BD%9C%E7%BB%8F%E5%8E%86"><span class="octicon octicon-link"></span></a>工作经历</h2>
+<p>For all usage and documentation please see: <a href="http://jekyllbootstrap.com">http://jekyllbootstrap.com</a></p>
 
-<h3>
-<a name="%E7%94%A8%E5%8F%8B%E8%BD%AF%E4%BB%B6%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8nc%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E4%BA%8B%E4%B8%9A%E9%83%A8-201110%E8%87%B3%E4%BB%8A" class="anchor" href="#%E7%94%A8%E5%8F%8B%E8%BD%AF%E4%BB%B6%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8nc%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E4%BA%8B%E4%B8%9A%E9%83%A8-201110%E8%87%B3%E4%BB%8A"><span class="octicon octicon-link"></span></a>用友软件股份有限公司——NC电子商务事业部 （2011/10—至今）</h3>
+<h2>
+<a name="version" class="anchor" href="#version"><span class="octicon octicon-link"></span></a>Version</h2>
 
-<ul>
-<li>职位：前端开发工程师</li>
-<li>工作简介：负责门户前端组件化框架的架构和开发工作</li>
-<li>工作内容： </li>
-</ul><p>1：组件框架分层：主要分为三层</p>
+<p>0.3.0 - stable and versioned using <a href="http://semver.org/">semantic versioning</a>.</p>
 
-<ul>
-<li>第一层：Class，所有类的基类，模拟类的继承。</li>
-<li>第二层：Base，继承class，增加对属性，事件和切面功能。</li>
-<li>第三层：Widget，组件核心widget继承base，定义了组件生命周期的管理。包含initAttr属性初始化配置，加载数据，使用模板生成html，绑定事件。另外对外提供接口，方便扩展。</li>
-</ul><p>2：组件开发过程</p>
+<p><strong>NOTE:</strong> 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't <em>look</em> like the old version.
+However, the actual API has not changed at all.
+You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.</p>
 
-<ol>
-<li>按照组件规范目录建立组件结构</li>
-<li>编写组件HTML模板.tpl文件</li>
-<li>编写组件css。</li>
-<li>编写组件js，引入组件的css和tpl文件，交给widget组装。</li>
-<li>编写测试文件和帮助文档。</li>
-</ol><p>3：主要特点：</p>
+<h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
 
-<ul>
-<li>使用Seajs来负责JavaScript和CSS以及TPL模板文件的动态加载。保证结构、样式、表现分离，提高代码可维护性。</li>
-<li>使用JavaScript继承来实现组件之间的复用，提高组件的可复用性。</li>
-<li>使用HTML5的自定义属性data-widget来简化组件的配置，使组件使用更加方便。</li>
-<li>通过动态加载css和资源文件来实现组件主题和多语的支持。</li>
-</ul><h3>
-<a name="%E4%B8%9C%E8%BD%AF%E9%9B%86%E5%9B%A2%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BA%8B%E4%B8%9A%E9%83%A8-200903201110" class="anchor" href="#%E4%B8%9C%E8%BD%AF%E9%9B%86%E5%9B%A2%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BA%8B%E4%B8%9A%E9%83%A8-200903201110"><span class="octicon octicon-link"></span></a>东软集团股份有限公司——软件开发事业部 （2009/03—2011/10）</h3>
+<p>To contribute to the framework please make sure to checkout your branch based on <code>jb-development</code>!!
+This is very important as it allows me to accept your pull request without having to publish a public version release.</p>
 
-<ul>
-<li>职位：web开发工程师</li>
-<li>工作内容：基于Dojo框架做前台RIA界面开发，对面向对象javascript开发有比较深入的了解。</li>
-</ul><hr><h3>
-<a name="%E8%87%AA%E6%88%91%E8%AF%84%E4%BB%B7" class="anchor" href="#%E8%87%AA%E6%88%91%E8%AF%84%E4%BB%B7"><span class="octicon octicon-link"></span></a>自我评价</h3>
+<p>Small, atomic Features, bugs, etc.
+Use the <code>jb-development</code> branch but note it will likely change fast as pull requests are accepted.
+Please rebase as often as possible when working.
+Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.</p>
 
-<p>本人性格开朗，待人友好，为人诚实谦虚，工作勤奋，认真负责，能吃苦耐劳，尽职尽责。 </p>
+<p>For Big Features or major API extensions/edits:
+This is the one case where I'll accept pull-requests based off the master branch.
+This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
+Translation : it might take a bit longer so please be patient! (but sincerely thank you).</p>
+
+<p><strong>Jekyll-Bootstrap Documentation Website.</strong></p>
+
+<p>The documentation website at <a href="http://jekyllbootstrap.com">http://jekyllbootstrap.com</a> is maintained at <a href="https://github.com/plusjade/jekyllbootstrap.com">https://github.com/plusjade/jekyllbootstrap.com</a></p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p><a href="http://opensource.org/licenses/MIT">MIT</a></p>
       </section>
     </div>
 
